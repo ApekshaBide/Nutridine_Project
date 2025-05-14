@@ -853,6 +853,21 @@ select {
   opacity: 1;
 }
 
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+.animated-float {
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+
+
 /* Responsive */
 @media screen and (max-width: 1199px) {
   .bb-main-menu-desk .bb-inner-menu-desk .bb-main-menu {
